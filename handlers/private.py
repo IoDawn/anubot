@@ -9,27 +9,26 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎵
+        f"""**Hei {} Saya adalah *Roso* musik bot, selain Strong dan berEnergi Saya juga pandai bernyanyi🎙
 
-I can play music in your group's voice chat
-
-To add in your group contact us at @LaylaSupport!**
-        """,
+Hubungi Owner saya jika Anda ingin menambahkan saya kedalam grup✔️
+`Karena saat ini saya hanya tersedia untuk grup dibawah ini`⬇️        
+""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/LaylaSupport"
+                        "Support Channel 🔊", url="https://t.me/arunasupportbot"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "Help❔", url="https://telegra.ph/Command-Roso-Music-05-31"
                     ),
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/Girls_and_boys_Chatting"
+                        "Contact me 👤", url="https://t.me/assistenpokonya_bot"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/EmilyVCBot?startgroup=true"
+                        "Group Chat 🎙", url="https://t.me/vcg24jam"
                     )]
             ]
         ),
@@ -38,12 +37,12 @@ To add in your group contact us at @LaylaSupport!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Group Music Player Online ✅**""",
+      await message.reply_text("""**Roso Music Player Online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList")
+                        "Help ❔", url="https://t.me/arunasupportbot/331")
                 ]
             ]
         )
