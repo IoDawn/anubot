@@ -21,7 +21,7 @@ Hubungi Owner saya jika Anda ingin menambahkan saya kedalam grup✔️
                         "Support Channel 🔊", url="https://t.me/arunasupportbot"
                     ),
                     InlineKeyboardButton(
-                        "Help❔", url="https://telegra.ph/Command-Roso-Music-05-31"
+                        "Help❔", url="https://https://telegra.ph/Modul-Roso-Musik-bot-05-31"
                     ),
                     InlineKeyboardButton(
                         "Contact me 👤", url="https://t.me/assistenpokonya_bot"
